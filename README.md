@@ -2,7 +2,7 @@
 
 # Asynchronous-Decentralized-Constrained-Optimization
 
-This repository contains the Python code and Jupyter notebooks associated with the experiments presented in our paper. The code is organized into four main Python scripts (`exp1.py`, `exp2.py`, `exp3.py`, `exp4.py`) and one Jupyter notebook that includes the appendix experiments. Below, you will find a brief description of each experiment, how to run them, and the required dependencies.
+This repository contains the Python code and Jupyter notebooks associated with the experiments presented in the paper <a href="https://arxiv.org/abs/2401.03136">"Asynchronous Decentralized Optimization with Constraints: Achievable Speeds of Convergence for Directed Graphs."</a>. The code is organized into four main Python scripts (`exp1.py`, `exp2.py`, `exp3.py`, `exp4.py`) and one Jupyter notebook that includes the appendix experiments. Below, you will find a brief description of each experiment, how to run them, and the required dependencies.
 
 
 ## Repository Structure
