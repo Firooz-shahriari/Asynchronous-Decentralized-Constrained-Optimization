@@ -48,7 +48,7 @@ error_prd = error(prd,np.zeros(num_nodes),0)
 L, C, W, D, V, neighbors_list, edges_connected, edge_indices, num_edges, H, neighbors, zero_row_sum, zero_col_sum = generate_graph_and_matrices(num_nodes, 0.8, plot=False)
 
 
-## find the optimal solution by running the DAGP algorithm
+#### find the optimal solution by running the DAGP algorithm
 x_dagp, z_dagp, h_dagp, g_dagp  = dopt.DAGP(prd, zero_row_sum, zero_col_sum, learning_rate, 2*depoch, np.random.randn(num_nodes,dim), rho , alpha, cons = True)
 f_dagp = error_prd.cost_path(np.sum(x_dagp,  axis=1)/num_nodes) 
 f_opt  = f_dagp[-1]
