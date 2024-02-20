@@ -56,5 +56,3 @@ To run the experiments in this repository, you will need to install several depe
 ```bash
 pip install -r requirements.txt
 ```
-
-The `requirements.txt` file should list all the necessary libraries, such as numpy, scipy, matplotlib, jupyter, etc. Ensure you create this file and list all dependencies your project needs.
